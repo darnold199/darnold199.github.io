@@ -13072,7 +13072,7 @@ ul.typeahead-list  > li > a.pull-right {
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 .reveal {
-  font-size: 230%;
+  font-size: 250%;
 }
 .reveal pre {
   width: inherit;
@@ -13272,7 +13272,7 @@ a.anchor-link {
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">di</span> <span class="m">2</span><span class="o">*</span><span class="m">3</span>
@@ -13311,7 +13311,7 @@ a.anchor-link {
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">di</span> <span class="s">&quot;Hello World&quot;</span>
@@ -13422,7 +13422,7 @@ a.anchor-link {
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">log</span> using tutorial_logfile, text<span class="k"> replace</span>
@@ -13447,7 +13447,7 @@ a.anchor-link {
        log:  /Users/davidarnold/Dropbox/Teaching/ECON5/Jupyter/code/tutorial_log
 &gt; file.log
   log type:  text
- opened on:  22 Aug 2020, 12:26:44
+ opened on:  22 Aug 2020, 15:14:43
 </pre>
 </div>
 </div>
@@ -13476,7 +13476,7 @@ a.anchor-link {
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">pwd</span>
@@ -13515,13 +13515,31 @@ a.anchor-link {
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">cd</span> <span class="o">/</span>Users<span class="o">/</span>davidarnold<span class="o">/</span>Dropbox<span class="o">/</span>Teaching<span class="o">/</span>ECON5<span class="o">/</span>Jupyter<span class="o">/</span>code
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/Users/davidarnold/Dropbox/Teaching/ECON5/Jupyter/code
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13724,7 +13742,7 @@ Sorted by:
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">help summarize</span>
@@ -13862,7 +13880,7 @@ Video example
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">summarize</span> par_median, detail
@@ -13922,7 +13940,7 @@ $$<p>Intuition: If a college admits a large fraction of low-income students (the
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">gen</span> mobility_rate = par_q1<span class="o">*</span>kq5_cond_parq1
@@ -13944,7 +13962,7 @@ $$<p>Intuition: If a college admits a large fraction of low-income students (the
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">gen</span> CA_ind = (state<span class="o">==</span><span class="s">&quot;CA&quot;</span>)
@@ -13975,7 +13993,7 @@ $$<p>Intuition: If a college admits a large fraction of low-income students (the
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">tab</span> CA
@@ -14021,7 +14039,7 @@ $$<p>Intuition: If a college admits a large fraction of low-income students (the
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">sum</span> mobility_rate par_q1 kq5_cond_parq1<span class="k"> if</span> CA<span class="o">==</span><span class="m">1</span><span class="k"></span>
@@ -14082,7 +14100,7 @@ kq5_cond_p~1 |      2,034    .1917753    .1360376          0   .9192932
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">sum</span> mobility_rate par_q1 kq5_cond_parq1<span class="k"> if</span> name <span class="o">==</span> <span class="s">&quot;University Of California, San Diego&quot;</span>
@@ -14143,7 +14161,7 @@ kq5_cond_p~1 |          1    .5506001           .   .5506001   .5506001
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">help graph</span>
@@ -14283,7 +14301,7 @@ Links to PDF documentation
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">graph twoway histogram</span> mobility_rate, frac
@@ -14421,7 +14439,7 @@ Links to PDF documentation
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">graph twoway histogram</span> mobility_rate, frac width(<span class="m">0.001</span>)
@@ -14669,7 +14687,7 @@ Links to PDF documentation
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">graph twoway histogram</span> mobility_rate, frac xline(<span class="m">0.0483275</span>)
@@ -14800,7 +14818,7 @@ Links to PDF documentation
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-stata"><pre><span></span><span class="k">graph twoway histogram</span> mobility_rate, frac color(blue%<span class="m">40</span>) <span class="cs">///</span>
@@ -14829,11 +14847,146 @@ Links to PDF documentation
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>variable mobility_rate not found
 
-</pre>
+<div class="output_html rendered_html output_subarea ">
+                <iframe frameborder="0" scrolling="no" height="436" width="600"                srcdoc="<html><body>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+&lt;!-- This is a Stata 16.1 generated SVG file (http://www.stata.com) --&gt;
+
+&lt;svg version=&quot;1.1&quot; width=&quot;600px&quot; height=&quot;436px&quot; viewBox=&quot;0 0 3960 2880&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;
+	&lt;desc&gt;Stata Graph - Graph&lt;/desc&gt;
+	&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;3960&quot; height=&quot;2880&quot; style=&quot;fill:#EAF2F3;stroke:none&quot;/&gt;
+	&lt;rect x=&quot;0.00&quot; y=&quot;0.00&quot; width=&quot;3959.88&quot; height=&quot;2880.00&quot; style=&quot;fill:#FFFFFF&quot;/&gt;
+	&lt;rect x=&quot;2.88&quot; y=&quot;2.88&quot; width=&quot;3954.12&quot; height=&quot;2874.24&quot; style=&quot;fill:none;stroke:#FFFFFF;stroke-width:5.76&quot;/&gt;
+	&lt;rect x=&quot;390.80&quot; y=&quot;275.35&quot; width=&quot;3468.22&quot; height=&quot;2099.36&quot; style=&quot;fill:#FFFFFF&quot;/&gt;
+	&lt;rect x=&quot;393.68&quot; y=&quot;278.23&quot; width=&quot;3462.46&quot; height=&quot;2093.60&quot; style=&quot;fill:none;stroke:#FFFFFF;stroke-width:5.76&quot;/&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;2311.35&quot; x2=&quot;3859.02&quot; y2=&quot;2311.35&quot; style=&quot;stroke:#EAF2F3;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;1928.33&quot; x2=&quot;3859.02&quot; y2=&quot;1928.33&quot; style=&quot;stroke:#EAF2F3;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;1545.19&quot; x2=&quot;3859.02&quot; y2=&quot;1545.19&quot; style=&quot;stroke:#EAF2F3;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;1162.17&quot; x2=&quot;3859.02&quot; y2=&quot;1162.17&quot; style=&quot;stroke:#EAF2F3;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;779.15&quot; x2=&quot;3859.02&quot; y2=&quot;779.15&quot; style=&quot;stroke:#EAF2F3;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;396.14&quot; x2=&quot;3859.02&quot; y2=&quot;396.14&quot; style=&quot;stroke:#EAF2F3;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;2374.71&quot; x2=&quot;1261.63&quot; y2=&quot;2317.17&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;2288.33&quot; x2=&quot;1261.63&quot; y2=&quot;2230.66&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;2201.95&quot; x2=&quot;1261.63&quot; y2=&quot;2144.28&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;2115.57&quot; x2=&quot;1261.63&quot; y2=&quot;2057.90&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;2029.07&quot; x2=&quot;1261.63&quot; y2=&quot;1971.52&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1942.69&quot; x2=&quot;1261.63&quot; y2=&quot;1885.14&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1856.31&quot; x2=&quot;1261.63&quot; y2=&quot;1798.76&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1769.93&quot; x2=&quot;1261.63&quot; y2=&quot;1712.38&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1683.55&quot; x2=&quot;1261.63&quot; y2=&quot;1626.00&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1597.17&quot; x2=&quot;1261.63&quot; y2=&quot;1539.62&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1510.79&quot; x2=&quot;1261.63&quot; y2=&quot;1453.24&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1424.41&quot; x2=&quot;1261.63&quot; y2=&quot;1366.86&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1338.03&quot; x2=&quot;1261.63&quot; y2=&quot;1280.36&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1251.65&quot; x2=&quot;1261.63&quot; y2=&quot;1193.98&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1165.27&quot; x2=&quot;1261.63&quot; y2=&quot;1107.60&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;1078.76&quot; x2=&quot;1261.63&quot; y2=&quot;1021.22&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;992.38&quot; x2=&quot;1261.63&quot; y2=&quot;934.84&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;906.00&quot; x2=&quot;1261.63&quot; y2=&quot;848.46&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;819.62&quot; x2=&quot;1261.63&quot; y2=&quot;762.08&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;733.24&quot; x2=&quot;1261.63&quot; y2=&quot;675.70&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;646.86&quot; x2=&quot;1261.63&quot; y2=&quot;589.32&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;560.48&quot; x2=&quot;1261.63&quot; y2=&quot;502.94&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;474.10&quot; x2=&quot;1261.63&quot; y2=&quot;416.56&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;387.72&quot; x2=&quot;1261.63&quot; y2=&quot;330.05&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1261.63&quot; y1=&quot;301.34&quot; x2=&quot;1261.63&quot; y2=&quot;275.35&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;454.16&quot; y=&quot;1987.73&quot; width=&quot;82.79&quot; height=&quot;323.62&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;458.48&quot; y=&quot;1992.05&quot; width=&quot;74.15&quot; height=&quot;314.98&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;536.95&quot; y=&quot;888.43&quot; width=&quot;82.79&quot; height=&quot;1422.92&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;541.27&quot; y=&quot;892.75&quot; width=&quot;74.15&quot; height=&quot;1414.28&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;619.74&quot; y=&quot;338.71&quot; width=&quot;82.91&quot; height=&quot;1972.64&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;624.06&quot; y=&quot;343.03&quot; width=&quot;74.27&quot; height=&quot;1964.00&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;702.65&quot; y=&quot;738.81&quot; width=&quot;82.79&quot; height=&quot;1572.54&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;706.97&quot; y=&quot;743.13&quot; width=&quot;74.15&quot; height=&quot;1563.90&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;785.44&quot; y=&quot;1434.55&quot; width=&quot;82.79&quot; height=&quot;876.80&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;789.76&quot; y=&quot;1438.87&quot; width=&quot;74.15&quot; height=&quot;868.16&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;868.23&quot; y=&quot;1792.95&quot; width=&quot;82.79&quot; height=&quot;518.40&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;872.55&quot; y=&quot;1797.27&quot; width=&quot;74.15&quot; height=&quot;509.77&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;951.02&quot; y=&quot;1949.49&quot; width=&quot;82.91&quot; height=&quot;361.86&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;955.34&quot; y=&quot;1953.81&quot; width=&quot;74.27&quot; height=&quot;353.22&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1033.93&quot; y=&quot;2116.44&quot; width=&quot;82.79&quot; height=&quot;194.91&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1038.25&quot; y=&quot;2120.76&quot; width=&quot;74.15&quot; height=&quot;186.27&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1116.72&quot; y=&quot;2203.44&quot; width=&quot;82.79&quot; height=&quot;107.91&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1121.04&quot; y=&quot;2207.76&quot; width=&quot;74.15&quot; height=&quot;99.27&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1199.51&quot; y=&quot;2245.27&quot; width=&quot;82.79&quot; height=&quot;66.08&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1203.83&quot; y=&quot;2249.59&quot; width=&quot;74.15&quot; height=&quot;57.44&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1282.30&quot; y=&quot;2255.66&quot; width=&quot;82.91&quot; height=&quot;55.69&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1286.62&quot; y=&quot;2259.98&quot; width=&quot;74.27&quot; height=&quot;47.05&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1365.21&quot; y=&quot;2269.52&quot; width=&quot;82.79&quot; height=&quot;41.83&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1369.53&quot; y=&quot;2273.84&quot; width=&quot;74.15&quot; height=&quot;33.19&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1448.00&quot; y=&quot;2283.51&quot; width=&quot;82.79&quot; height=&quot;27.84&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1452.32&quot; y=&quot;2287.83&quot; width=&quot;74.15&quot; height=&quot;19.20&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1530.79&quot; y=&quot;2266.06&quot; width=&quot;82.79&quot; height=&quot;45.29&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1535.11&quot; y=&quot;2270.38&quot; width=&quot;74.15&quot; height=&quot;36.65&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1613.58&quot; y=&quot;2297.37&quot; width=&quot;82.91&quot; height=&quot;13.98&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1617.90&quot; y=&quot;2301.69&quot; width=&quot;74.27&quot; height=&quot;5.34&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1696.49&quot; y=&quot;2300.83&quot; width=&quot;82.79&quot; height=&quot;10.52&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1700.81&quot; y=&quot;2305.15&quot; width=&quot;74.15&quot; height=&quot;1.88&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1779.28&quot; y=&quot;2290.44&quot; width=&quot;82.79&quot; height=&quot;20.91&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1783.60&quot; y=&quot;2294.76&quot; width=&quot;74.15&quot; height=&quot;12.27&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1862.07&quot; y=&quot;2307.89&quot; width=&quot;82.79&quot; height=&quot;3.47&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1866.39&quot; y=&quot;2307.03&quot; width=&quot;74.15&quot; height=&quot;5.17&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;1944.86&quot; y=&quot;2307.89&quot; width=&quot;82.91&quot; height=&quot;3.47&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;1949.17&quot; y=&quot;2307.03&quot; width=&quot;74.27&quot; height=&quot;5.17&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;2027.77&quot; y=&quot;2307.89&quot; width=&quot;82.79&quot; height=&quot;3.47&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;2032.09&quot; y=&quot;2307.03&quot; width=&quot;74.15&quot; height=&quot;5.17&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;2110.56&quot; y=&quot;2304.30&quot; width=&quot;82.79&quot; height=&quot;7.05&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;2114.88&quot; y=&quot;2307.03&quot; width=&quot;74.15&quot; height=&quot;1.59&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;2359.05&quot; y=&quot;2307.89&quot; width=&quot;82.79&quot; height=&quot;3.47&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;2363.37&quot; y=&quot;2307.03&quot; width=&quot;74.15&quot; height=&quot;5.17&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;2607.41&quot; y=&quot;2307.89&quot; width=&quot;82.91&quot; height=&quot;3.47&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;2611.73&quot; y=&quot;2307.03&quot; width=&quot;74.27&quot; height=&quot;5.17&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;rect x=&quot;3104.39&quot; y=&quot;2307.89&quot; width=&quot;82.79&quot; height=&quot;3.47&quot; style=&quot;fill:#0000FF;fill-opacity:0.40&quot;/&gt;
+	&lt;rect x=&quot;3108.71&quot; y=&quot;2307.03&quot; width=&quot;74.15&quot; height=&quot;5.17&quot; style=&quot;fill:none;stroke:#0000FF;stroke-opacity:0.40;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1456.66&quot; y1=&quot;779.15&quot; x2=&quot;1289.47&quot; y2=&quot;779.15&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1289.47&quot; y1=&quot;779.15&quot; x2=&quot;1328.09&quot; y2=&quot;758.12&quot; stroke-linecap=&quot;round&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;line x1=&quot;1289.47&quot; y1=&quot;779.15&quot; x2=&quot;1328.09&quot; y2=&quot;800.19&quot; stroke-linecap=&quot;round&quot; style=&quot;stroke:#000000;stroke-width:8.64&quot;/&gt;
+	&lt;text x=&quot;1572.49&quot; y=&quot;807.17&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:79.94px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;UCSD&lt;/text&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;2374.71&quot; x2=&quot;390.80&quot; y2=&quot;275.35&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;2311.35&quot; x2=&quot;350.83&quot; y2=&quot;2311.35&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;300.72&quot; y=&quot;2311.35&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; transform=&quot;rotate(-90 300.72,2311.35)&quot; text-anchor=&quot;middle&quot;&gt;0&lt;/text&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;1928.33&quot; x2=&quot;350.83&quot; y2=&quot;1928.33&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;300.72&quot; y=&quot;1928.33&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; transform=&quot;rotate(-90 300.72,1928.33)&quot; text-anchor=&quot;middle&quot;&gt;.05&lt;/text&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;1545.19&quot; x2=&quot;350.83&quot; y2=&quot;1545.19&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;300.72&quot; y=&quot;1545.19&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; transform=&quot;rotate(-90 300.72,1545.19)&quot; text-anchor=&quot;middle&quot;&gt;.1&lt;/text&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;1162.17&quot; x2=&quot;350.83&quot; y2=&quot;1162.17&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;300.72&quot; y=&quot;1162.17&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; transform=&quot;rotate(-90 300.72,1162.17)&quot; text-anchor=&quot;middle&quot;&gt;.15&lt;/text&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;779.15&quot; x2=&quot;350.83&quot; y2=&quot;779.15&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;300.72&quot; y=&quot;779.15&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; transform=&quot;rotate(-90 300.72,779.15)&quot; text-anchor=&quot;middle&quot;&gt;.2&lt;/text&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;396.14&quot; x2=&quot;350.83&quot; y2=&quot;396.14&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;300.72&quot; y=&quot;396.14&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; transform=&quot;rotate(-90 300.72,396.14)&quot; text-anchor=&quot;middle&quot;&gt;.25&lt;/text&gt;
+	&lt;text x=&quot;190.71&quot; y=&quot;1325.03&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; transform=&quot;rotate(-90 190.71,1325.03)&quot; text-anchor=&quot;middle&quot;&gt;Fraction of Colleges in Bin&lt;/text&gt;
+	&lt;line x1=&quot;390.80&quot; y1=&quot;2374.71&quot; x2=&quot;3859.02&quot; y2=&quot;2374.71&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;line x1=&quot;454.16&quot; y1=&quot;2374.71&quot; x2=&quot;454.16&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;454.16&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;0&lt;/text&gt;
+	&lt;line x1=&quot;788.29&quot; y1=&quot;2374.71&quot; x2=&quot;788.29&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;788.29&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.02&lt;/text&gt;
+	&lt;line x1=&quot;1122.41&quot; y1=&quot;2374.71&quot; x2=&quot;1122.41&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;1122.41&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.04&lt;/text&gt;
+	&lt;line x1=&quot;1456.66&quot; y1=&quot;2374.71&quot; x2=&quot;1456.66&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;1456.66&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.06&lt;/text&gt;
+	&lt;line x1=&quot;1790.79&quot; y1=&quot;2374.71&quot; x2=&quot;1790.79&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;1790.79&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.08&lt;/text&gt;
+	&lt;line x1=&quot;2124.91&quot; y1=&quot;2374.71&quot; x2=&quot;2124.91&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;2124.91&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.1&lt;/text&gt;
+	&lt;line x1=&quot;2459.04&quot; y1=&quot;2374.71&quot; x2=&quot;2459.04&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;2459.04&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.12&lt;/text&gt;
+	&lt;line x1=&quot;2793.28&quot; y1=&quot;2374.71&quot; x2=&quot;2793.28&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;2793.28&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.14&lt;/text&gt;
+	&lt;line x1=&quot;3127.41&quot; y1=&quot;2374.71&quot; x2=&quot;3127.41&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;3127.41&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.16&lt;/text&gt;
+	&lt;line x1=&quot;3461.53&quot; y1=&quot;2374.71&quot; x2=&quot;3461.53&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;3461.53&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.18&lt;/text&gt;
+	&lt;line x1=&quot;3795.66&quot; y1=&quot;2374.71&quot; x2=&quot;3795.66&quot; y2=&quot;2414.69&quot; style=&quot;stroke:#000000;stroke-width:5.76&quot;/&gt;
+	&lt;text x=&quot;3795.66&quot; y=&quot;2504.54&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;.2&lt;/text&gt;
+	&lt;text x=&quot;2124.91&quot; y=&quot;2614.56&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:99.99px;fill:#000000&quot; text-anchor=&quot;middle&quot;&gt;Mobility Rate&lt;/text&gt;
+	&lt;text x=&quot;408.00&quot; y=&quot;2737.89&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:79.94px;fill:#000000&quot;&gt;Source: Opportunity Insights&lt;/text&gt;
+	&lt;text x=&quot;2124.91&quot; y=&quot;215.98&quot; style=&quot;font-family:&#x27;Helvetica&#x27;;font-size:139.96px;fill:#1E2D53&quot; text-anchor=&quot;middle&quot;&gt;Distribution of Mobility Rates across U.S. Colleges&lt;/text&gt;
+&lt;/svg&gt;
+</body></html>"></iframe>
+
 </div>
+
 </div>
 
 </div>
